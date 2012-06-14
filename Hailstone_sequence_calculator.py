@@ -1,9 +1,9 @@
-x = 314159265                                       # x will be determined by user input
+x = 31                                      # x will be determined by user input
 i = 0                                               # i is a counter to see how long it takes to find 1
 
 def even_x():
     """ Divides the (even) number by two, saving it over the previous value for x.
-    Then determines if it's finished running, even_x() is needed again, or odd_x() is now necessary.
+    Then determines if it's finished running, even_x() is needed again, or odd_x() is now necessary. 
     """
     global x                                        # "writes to" and "reads from" non-local variable x
     global i                                        # "writes to" and "reads from" non-local variable i
@@ -14,7 +14,7 @@ def even_x():
     print(x)                                        # print x
     if(x == 1):                                     # if x is equal to 1:
         print("done")                               # print "done" to signal program has completed.
-        print "It took", i, "steps to reach 1."     # prints number of steps to find 1.
+        print "It took", i, "steps to reach 1."     # prints number of steps to find 1. 
         
     elif(x % 2 == 0.0):                             # or, if the remainder is zero and so x is even:
         even_x()                                    # now, print "even_x()"; should instead run function.
