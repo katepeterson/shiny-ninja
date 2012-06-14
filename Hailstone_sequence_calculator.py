@@ -4,7 +4,7 @@
     Then, the integer is tested to determine whether it is even or odd.
     This is done so by dividing by two to test for a remainder.
     
-    If there is a remainder of 0, then the number is again divided by two.
+    If there is a remainder of 0, then the original number is again divided by two.
     That 1/2 of the original number is saved over the original variable.
     If there was a remainder of 1, then the original number is multiplied by three.
     The 3-times-larger number is saved over the original variable.
