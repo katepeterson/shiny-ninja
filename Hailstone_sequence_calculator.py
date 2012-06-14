@@ -1,7 +1,8 @@
 # Hailstone Sequence Calculator
 
 """ In theory, this program takes an integer (eventually selected by user input).
-    Then, the integer is divided by two to test for a remainder.
+    Then, the integer is tested to determine whether it is even or it. 
+    This is done so by dividing by two to test for a remainder.
     
     If there is a remainder of 0, then the number is again divided by two.
     That 1/2 of the original number is saved over the original variable.
